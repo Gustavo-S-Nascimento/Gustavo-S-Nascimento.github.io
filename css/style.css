@@ -63,6 +63,7 @@ ul {
   align-items: center;
   top: 100px;
   left: 195px;
+  list-style: none;
 }
 
 ul li {

@@ -67,7 +67,7 @@ ul {
 }
 
 ul li {
-  list-style: none;
+  list-style-type: none;
 }
 
 ul li a {

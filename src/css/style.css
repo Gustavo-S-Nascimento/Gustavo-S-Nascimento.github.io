@@ -1,0 +1,173 @@
+@import url('https://fonts.google.com/specimen/Inter');
+@import url('https://fonts.google.com/specimen/Jomhuria');
+@import url('https://fonts.google.com/specimen/Jost');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+  font-family: Inter, Arial;
+}
+
+
+nav {
+  display: flex;
+  background-color: #FFF;
+  align-items: center;
+  padding-left: .625rem;
+  justify-content: space-between;
+  width: 100vw;
+  height: 2.1875rem;
+  border-bottom: .0625rem solid #000;
+  box-shadow: .0625rem 0 .3125rem #000;
+  z-index: 9;
+  position: fixed;
+}
+
+nav p {
+  color: #000;
+  font-family: Inter, Arial;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: default;
+}
+
+nav ul {
+  display: flex;
+  padding: .625rem;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 1.0625rem;
+  font-family: Inter, Arial;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.about {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  border-bottom: .0625rem solid #000;
+}
+
+
+.about p#Hl {
+  display: flex;
+  align-self: flex-start;
+  font-family: Inter, Arial;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.about h1 {
+  color: #000;
+  font-family: Jomhuria, Arial;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin: 0;
+}
+
+.about p#bio {
+  display: flex;
+  justify-content: space-between;
+  width: 9.375rem;
+  height: 3.625rem;
+  color: #000;
+  font-family: Inter, Arial;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bi {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  border: .125rem dashed #000;
+  font-size: 1.875rem;
+  padding: .3125rem;
+  margin: .3125rem;
+  color: #000;
+}
+
+#container-card {
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.875rem;
+}
+
+.card {
+  width: 16.875rem;
+  height: 21.875rem;
+  border: .0625rem solid #000;
+  border-radius: .9375rem;
+  box-shadow: .0625rem 0 .3125rem #000;
+  background: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Jost, Arial;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card img {
+  border: .0625rem solid #000;
+  border-radius: .9375rem;
+  width: 12.5rem;
+  height: 10rem;
+}
+
+.card img:hover {
+  width: 11rem;
+  height: 9rem;
+  box-shadow: 1px 0 5px #000;
+}
+
+.info {
+  width: 14.375rem;
+  height: 150px;
+}

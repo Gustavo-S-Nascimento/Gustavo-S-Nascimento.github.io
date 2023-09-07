@@ -58,9 +58,9 @@ nav a {
   color: #000;
 }
 
-.about {
+#about {
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -70,7 +70,7 @@ nav a {
 }
 
 
-.about p#Hl {
+#about p#Hl {
   display: flex;
   align-self: flex-start;
   font-family: Inter, Arial;
@@ -81,7 +81,7 @@ nav a {
   margin: 0;
 }
 
-.about h1 {
+#about h1 {
   color: #000;
   font-family: Jomhuria, Arial;
   font-size: 5rem;
@@ -91,7 +91,7 @@ nav a {
   margin: 0;
 }
 
-.about p#bio {
+#about p#bio {
   display: flex;
   justify-content: space-between;
   width: 9.375rem;

@@ -13,6 +13,12 @@ body {
   font-family: Inter, Arial;
 }
 
+main {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
 
 nav {
   display: flex;
@@ -59,7 +65,6 @@ nav a {
 }
 
 #about {
-  width: 100vw;
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -137,7 +142,7 @@ nav a {
 
 .card {
   width: 16.875rem;
-  height: 21.875rem;
+  height: 355px;
   border: .0625rem solid #000;
   border-radius: .9375rem;
   box-shadow: .0625rem 0 .3125rem #000;
@@ -169,5 +174,5 @@ nav a {
 
 .info {
   width: 14.375rem;
-  height: 150px;
+  height: 160px;
 }

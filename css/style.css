@@ -1,4 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/kaushan-script');
+@import url('https://fonts.google.com/specimen/Inter');
+@import url('https://fonts.google.com/specimen/Jomhuria');
 
 * {
   box-sizing: border-box;
@@ -6,193 +7,100 @@
 }
 
 body {
+  background-color: #FFF;
   margin: 0 auto;
-  background: linear-gradient(-50deg, rgba(114, 0, 175, 1) 31%, rgb(0, 0, 0) 95%);
+  font-family: Inter, Arial;
+}
+
+main {
+  width: 100vw;
+  height: 50vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  justify-content: space-between;
+  width: 100vw;
+  height: 35px;
+  border-bottom: 1px solid #000;
+  box-shadow: 1px 0 5px #000;
+  z-index: 9;
+  position: fixed;
+}
+
+nav p {
+  color: #000;
+  font-family: Inter, Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+nav ul {
+  display: flex;
+  padding: 10px;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 17px;
+  font-family: Inter, Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 100vh;
-  font-family: "Kaushan", Arial, Helvetica, sans-serif;
-  color: #fff;
 }
 
-.all {
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.box {
-  width: 170px;
-  height: 170px;
-  border: 0.2rem solid #ccc;
-  border-radius: 100px;
-  overflow: hidden;
-  object-fit: cover;
-  margin: 0 auto;
-  box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca,
-    0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
-  -webkit-animation: blink 0.7s infinite alternate;
-  animation: blink 0.7s infinite alternate;
-}
-
-.box:hover {
-  background: transparent !important;
-}
-
-@-webkit-keyframes blink {
-  100% {
-    box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ba9ca,
-      0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
-  }
-}
-
-.info {
-  margin-top: 6vw;
-}
-
-
-ul {
-  position: relative;
-  top: 15vw;
-  left: 30vw;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-  padding: 0 auto;
+.about p#Hl {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-self: flex-start;
+  font-family: Inter, Arial;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
 }
 
-ul li {
-  list-style: none;
+.about h1 {
+  color: #000;
+  font-family: Jomhuria, Arial;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin: 0;
 }
 
-ul li a {
-  display: block;
-  position: relative;
-  width: 10vw;
-  height: 9vw;
-  line-height: 100px;
-  font-size: 40px;
-  text-align: center;
-  text-decoration: none;
-  color: #FFF;
-  margin: 0 30px;
-  transition: .5s;
-}
-
-ul li a span {
-  position: absolute;
-  transition: transform .5s;
-}
-
-ul li a span:nth-child(1),
-ul li a span:nth-child(3) {
-  width: 100%;
-  height: 3px;
-  background: #FFF;
-}
-
-ul li a span:nth-child(1) {
-  top: 0;
-  left: 0;
-  transform-origin: right;
-}
-
-ul li a:hover span:nth-child(1) {
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform .5s;
-}
-
-ul li a span:nth-child(3) {
-  bottom: 0;
-  left: 0;
-  transform-origin: left;
-}
-
-ul li a:hover span:nth-child(3) {
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform .5s;
-}
-
-ul li a span:nth-child(2),
-ul li a span:nth-child(4) {
-  width: 3px;
-  height: 100%;
-  background: #FFF;
-}
-
-ul li a span:nth-child(2) {
-  top: 0;
-  left: 0;
-  transform: scale(0);
-  transform-origin: bottom;
-}
-
-ul li a:hover span:nth-child(2) {
-  transform: scale(1);
-  transform-origin: top;
-  transition: transform .5s;
-}
-
-ul li a span:nth-child(4) {
-  top: 0;
-  right: 0;
-  transform: scale(0);
-  transform-origin: top;
-}
-
-ul li a:hover span:nth-child(4) {
-  transform: scale(1);
-  transform-origin: bottom;
-  transition: transform .5s;
-}
-
-.linkedin:hover {
-  color: #3b5998;
-}
-
-.linkedin:hover span {
-  background: #3b5998;
-}
-
-.github:hover {
-  color: #000000;
-}
-
-.github:hover span {
-  background: #000000;
-}
-
-.instagram:hover {
-  color: #c32aa3;
-}
-
-.instagram:hover span {
-  background: #c32aa3;
-}
-
-.google:hover {
-  color: #dd4b39;
-}
-
-.google:hover span {
-  background: #dd4b39;
-}
-
-ul li a .twitter {
-  color: #1da1f2;
-}
-
-ul li a:hover:nth-child(3) {
-  color: #c32aa3;
-}
-
-ul li a:hover:nth-child(4) {
-  color: #dd4b39;
+.about p#bio {
+  display: flex;
+  justify-self: flex-end;
+  max-width: 150px;
+  height: 58px;
+  color: #000;
+  font-family: Inter, Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
 }

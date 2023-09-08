@@ -83,7 +83,7 @@ nav a:hover {
 }
 
 #about {
-  height: 45vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -143,10 +143,19 @@ nav a:hover {
   width: 2.1875rem;
   height: 2.1875rem;
   border: .125rem dashed #000;
-  font-size: 1.875rem;
+  font-size: 1.975rem;
   padding: .3125rem;
   margin: .3125rem;
   color: #000;
+}
+
+.bi:hover {
+  color: #FFF;
+  background-color: #000;
+  font-size: 1.800rem;
+  transition: .7s;
+  border: .125rem dashed #fff;
+  box-shadow: 1px 0 5px #000;
 }
 
 #container-card {
@@ -185,9 +194,16 @@ nav a:hover {
 }
 
 .card img:hover {
-  width: 11rem;
-  height: 9rem;
+  width: 13rem;
+  height: 11rem;
+  transition: .7s;
   box-shadow: 1px 0 5px #000;
+}
+
+.card img:active {
+  width: 11.5rem;
+  height: 10rem;
+  transition: .5s;
 }
 
 .info {

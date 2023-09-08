@@ -27,7 +27,7 @@ const cardinfo = [
 
 for (const cardElemnt of cardinfo) {
     const card = `<div class="card ${cardElemnt.id}">
-    <a href="${cardElemnt.link}"><img src="${cardElemnt.image}" alt="${cardElemnt.alt}"></a>
+    <a href="${cardElemnt.link}" target="_blank"><img src="${cardElemnt.image}" alt="${cardElemnt.alt}"></a>
     <div class="info">
       <h3>${cardElemnt.project}</h3>
       <p>${cardElemnt.descript}</p>

@@ -3,8 +3,8 @@ const cardinfo = [
         id: 1,
         project: "Card challenge",
         descript: "My first challenge proposed by Frontend Mentor.",
-        image: "https://github.com/Gustavo-S-Nascimento/Card-challenge/assets/74427958/5964cf02-425f-4118-bb3f-2ff1797e5d73",
-        link: "https://gustavo-s-nascimento.github.io/Card-challenge/",
+        image: "https://github.com/GustavoSantoz/Card-challenge/assets/74427958/5964cf02-425f-4118-bb3f-2ff1797e5d73",
+        link: "https://gustavosantoz.github.io/Card-challenge/",
         alt: "My card challenge with three card.",
     },
     {
@@ -12,7 +12,7 @@ const cardinfo = [
         project: "Form",
         descript: "Made a form at the request of a friend for him to declare himself to his partner.",
         image: "https://github.com/Gustavo-S-Nascimento/form/assets/74427958/106f8ca7-886d-4f78-bccf-d75a947184d6",
-        link: "https://gustavo-s-nascimento.github.io/form/",
+        link: "https://gustavosantoz.github.io/form/",
         alt: "a form called cupid made for a friend",
     },
     {
